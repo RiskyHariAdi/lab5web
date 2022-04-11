@@ -6,7 +6,7 @@
 ## Langkah langkah praktikum 5
 Persiapan membuat dokumen HTML dengan nama file lab5_javascript.html seperti berikut.
 
-![foto!](/foto/1.png)
+![foto!](foto/1.png)
 
 ![imgintro!](assets/img/intro2.png)
 
