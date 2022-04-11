@@ -19,7 +19,10 @@ Hasilnya
 ![foto!](foto/hasil2.png)
 Pemakaian method dalam objek
 
-![img1!](assets/img/1/1-1.png)
+![foto!](foto/3.png)
+
+Hasilnya
+![foto!](foto/)
 
 Pemakaian Prompt
 
