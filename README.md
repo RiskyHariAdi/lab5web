@@ -8,7 +8,7 @@ Persiapan membuat dokumen HTML dengan nama file lab5_javascript.html seperti ber
 
 ![foto!](foto/1.png)
 
-![imgintro!](assets/img/intro2.png)
+![foto!](foto/11.png)
 
 ## 1. Javascript Dasar
 Pemakaian Alert sebagai property window
