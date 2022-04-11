@@ -15,6 +15,8 @@ Pemakaian Alert sebagai property window
 
 ![foto!](foto/2.png)
 
+Hasilnya
+![foto!](foto/hasil2.png)
 Pemakaian method dalam objek
 
 ![img1!](assets/img/1/1-1.png)
