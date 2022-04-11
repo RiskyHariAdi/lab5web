@@ -27,6 +27,9 @@ Hasilnya
 Pemakaian Prompt
 
 ![foto!](foto/4.png)
+![foto!](foto/41.png)
+Hasilnya
+![foto!](foto/hasil4.png)
 
 ![img1!](assets/img/1/1-3.png)
 
