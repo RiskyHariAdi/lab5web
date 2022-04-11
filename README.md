@@ -22,7 +22,7 @@ Pemakaian method dalam objek
 ![foto!](foto/3.png)
 
 Hasilnya
-![foto!](foto/)
+![foto!](foto/hasil3.png)
 
 Pemakaian Prompt
 
