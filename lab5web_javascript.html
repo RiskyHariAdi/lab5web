@@ -3,13 +3,15 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="widht=device-widht, initial-scale=1">
-        <title>Pemasukan data</title>
+        <title>Contoh program javascript</title>
+
+        <script type="text/javascript">
+            function pesan(){
+                alert ("Memanggil javascript lewat body onload")
+            }
+        </script>
     </head>
-    <body>
-        <script>
-            var nama = prompt("siapa nama anda ?"," Masukkan nama anda ");
-            document.write("hai. "+ nama);
-    </script>
+    <body onload="pesan()">
 
     </body>
 </html>

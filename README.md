@@ -31,12 +31,13 @@ Pemakaian Prompt
 Hasilnya
 ![foto!](foto/hasil4.png)
 
-![img1!](assets/img/1/1-3.png)
-
 Pembuatan fungsi dan cara pemanggilannya
 
-![img1!](assets/img/1/1-4.png)
+![foto!](foto/5.png)
 
+Hasilnya
+
+![foto!](foto/hasil5.png)
 ## 2. Dasar Pemrograman Di Javascript
 Operasi dasar aritmatika
 
