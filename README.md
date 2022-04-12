@@ -48,9 +48,15 @@ Hasilnya
 
 Seleksi kondisi (if..else)
 
-disini saya memasukkan data 90
+disini saya memasukkan data 70
 
-![img2!](assets/img/2/1-22.png)
+![img2!](foto/7.png)
+
+Angka yang saya masukkan 70
+![foto!](foto/77.png)
+
+Hasilnya 
+![foto!](foto/hasil7.png)
 
 Penggunaan operator switch untuk seleksi kondisi
 
