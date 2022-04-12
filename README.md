@@ -90,10 +90,10 @@ Hasilnya
 ## 4. HTML DOM
 Pilihan menggunakan checkBox dengan perhitungan otomatis
 
-![foto!](foto/ct1.png)
+![foto!](foto/kk.png)
 
 Hasilnya
-![foto!](foto/hasilct.png)
+![foto!](foto/kk1.png)
 
 ## Pertanyaan dan Tugas
 1. Buat script untuk melakukan validasi pada isian form

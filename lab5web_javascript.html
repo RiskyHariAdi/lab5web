@@ -1,47 +1,33 @@
 <!DOCTYPE html>
+<!-- file daftar menu.html -->
 <html lang="en">
 <head>
-    <title>Form Validasi</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script type="text/javascript">
-        function validasiForm() {
-            var nama = document.getElementById("nama").value;
-            var email = document.getElementById("email").value;
-            var telepon = document.getElementById("no telepon").value;
-            var alamat = document.getElementById("alamat").value;
-            if (nama != "" && email != "" && telepon != "" && alamat != "") {
-                return true;
-            } else {
-                alert('Isi Alamat Anda dengan lengkap !');
-                return false;
-            }
-        }
-    </script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daftar Menu</title>
+  <script lang="javascript">
+      function hitung(ele) {
+          var total = document.getElementById('total').value;
+              total = (total ? parseInt(total) : 0);
+          var harga = 0;
+          if (ele.checked) {
+              harga = ele.value;
+              total += parseInt(harga);
+          } else {
+              harga = ele.value;
+              if (total > 0)
+                  total -= parseInt(harga);
+          }
+          document.getElementById('total').value = total;
+      }
+  </script>
 </head>
 <body>
-     <div class="login">
-        <h2>VALIDASI DATA ANDA</h2>
-        <form action="#" method="POST" onSubmit="return validasiForm()">
-            <div>
-                <label>Nama Lengkap:</label>
-                <input type="text" name="nama" id="nama" />
-            </div>
-            <div>
-                <label>Email:</label>
-                <input type="email" name="email" id="email" />
-            </div>
-            <div>
-                <label>Telepon:</label>
-                <input type="text" name="telepon" id="telepon" />
-            </div>
-            <div>
-                <label>Alamat:</label>
-                <textarea cols="40" rows="5" name="alamat" id="alamat"></textarea>
-            </div>
-            <div>
-                <input type="submit" value="Daftar" class="tombol">
-            </div>
-        </form>
-    </div>
+  <h1>Daftar Menu Makanan</h1>
+  <label><input type="checkbox" value="5000" name="menu1" id="menu1" onclick="hitung(this);">Kangkung Rp. 5.000</label><br>
+  <label><input type="checkbox" value="1000" name="menu2" id="menu2" onclick="hitung(this);">Tempe Goreng Rp. 1.000</label><br>
+  <label><input type="checkbox" value="2000" name="menu3" id="menu3" onclick="hitung(this);">Sayur Rp. 2.000</label><hr>
+  <strong>Total Bayar: Rp. <input type="text" name="total" id="total"></strong>
 </body>
 </html>
