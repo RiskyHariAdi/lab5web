@@ -41,7 +41,7 @@ Hasilnya
 ## 2. Dasar Pemrograman Di Javascript
 Operasi dasar aritmatika
 
-![img2!](foto/6.png)
+![foto!](foto/6.png)
 
 Hasilnya
 ![foto!](foto/hasil6.png)
@@ -50,7 +50,7 @@ Seleksi kondisi (if..else)
 
 disini saya memasukkan data 70
 
-![img2!](foto/7.png)
+![foto!](foto/7.png)
 
 Angka yang saya masukkan 70
 ![foto!](foto/77.png)
@@ -60,69 +60,54 @@ Hasilnya
 
 Penggunaan operator switch untuk seleksi kondisi
 
-![img2!](assets/img/2/1-3.png)
+![foto!](foto/8.png)
 
-![img2!](assets/img/2/1-33.png)
+Angka yang saya masukkan
+![foto!](foto/88.png)
+
+Hasilnya 
+![foto!](foto/hasil8.png)
+
 
 ## 3. pembuatan Form
 Form input
 
 saya coba input nilai 8
 
-![img3!](assets/img/3/1.png)
+![foto!](foto/form.png)
+
+Hasilnya 
+![foto!](foto/hasilform.png)
 
 Form button
 
-![img3!](assets/img/3/2.png)
+![foto!](foto/fb.png)
 
-![img3!](assets/img/3/2-1.png)
+Hasilnya
+
+![foto!](foto/hasilfb.png)
 
 ## 4. HTML DOM
 Pilihan menggunakan checkBox dengan perhitungan otomatis
 
-![img4!](assets/img/4/1.png)
+![foto!](foto/ct1.png)
+
+Hasilnya
+![foto!](foto/hasilct.png)
 
 ## Pertanyaan dan Tugas
 1. Buat script untuk melakukan validasi pada isian form
 
 ## Jawab
 
-Membuat validasi nama, no.telp, Email
+Membuat validasi nama, no.telp, Email,alamat
 
-## 1. Nama
-Saya akan memberikan Validasi berupa inputan hanya boleh mengguankan Huruf/Alphabet saja. Contoh: Fajar (benar), Fajar02 (salah).
+## 1.BUAT SCRIPT UNTUK MELAKUKAN VALIDASI PADA ISIAN FORM.
 
-![imgpraktikum!](assets/img/praktikum/1-1.png)
+![foto!](foto/cd.png)
 
-Penjelasan
-- Pertama membuat nama function Alphabet, dengan parameter dinamis yaitu (nilai, pesan).
-- Data yang boleh dimasukkan adalah berupa "a-zA-Z".
-- Jika selain data "a-zA-Z" ini dimasukkan, maka akan muncul pesan Alert "alert(pesan);"
+PENJELASAN
 
-![imgpraktikum!](assets/img/praktikum/1.png)
+Ini adalah contoh membuat form validasi dengan menggunakan script atau javascript terdapat beberapa pengondisian, jika data tidak di isi dengan lengkap maka akan terdapat prompt isi alamat anda dengan lengkap karena harus mengisi dengan lengkap seperti contoh gambar di atas
 
-## 2. No.Telp
-Pada bagian ini akan saya berikan validasi berupa hanya angka saja yang boleh di inputkan, contoh: 12345 (benar), 123AB (salah).
-
-![imgpraktikum!](assets/img/praktikum/2.png)
-
-Penjelasan:
-- var numberExp = /^[0-9]+$/; merupakan variabel numberExp yang diberi batasan validasi angka 0-9
-- Arti Match pada "if(nilai.value.match(numberExp))" adalah string.match(), mencari string menggunakan Regular Expression (Regex)
-- Jika salah atau inputan tidak benar maka akan ada pesan alert "alert(pesan);"
-
-![imgpraktikum!](assets/img/praktikum/2-1.png)
-
-## 3. Email
-Pada email akan diberikan validasi masih berupa Regular Expression. Contoh: fajar.agngn@gmail.com (benar), fajar.agngn@gmail. (salah).
-
-![imgpraktikum!](assets/img/praktikum/3.png)
-
-Penjelasan:
-- membuat variabel email " var email = /^([a-zA-Z0-9_.+-])+@(([a-zA-Z0-9-])+.)+([a-zA-Z0-9]{2,4})+$/; " berupa huruf, angka dan simbol yang diperbolehkan dalam input sebuah email. Jika email salah maka akan ada pesan alert "alert(pesan);"
-
-![imgpraktikum!](assets/img/praktikum/3-1.png)
-
-## Berikut penulisan form yang benar
-
-![imgpraktikum!](assets/img/praktikum/4.png)
+![foto!](foto/cd1.png)
