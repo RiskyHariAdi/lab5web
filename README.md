@@ -41,7 +41,10 @@ Hasilnya
 ## 2. Dasar Pemrograman Di Javascript
 Operasi dasar aritmatika
 
-![img2!](assets/img/2/1.png)
+![img2!](foto/6.png)
+
+Hasilnya
+![foto!](foto/hasil6.png)
 
 Seleksi kondisi (if..else)
 
